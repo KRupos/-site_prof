@@ -1,0 +1,232 @@
+
+/* Media */
+
+@media (max-width: 800px) {
+
+    html {
+        font-size: 13px;
+    }
+
+	.container {
+		max-width: 100%;
+	}
+
+    /* header */
+
+    .nav_link {
+        margin: 0;
+        width: 100%;
+    }
+
+    /* Main */
+    .main_t {
+        font-size: 14px;
+    }
+
+    .btn2 {
+        height: 7vh;
+        width: 18vh;
+        font-size: 2vh;
+        padding: 1vh;
+    }
+
+    /* About us */
+
+    .second_c {
+        height: 400px;
+        width: 100%;
+        background-image: url('../img/mobile.png'); 
+        background-position: 50% 100%; 
+        background-repeat: no-repeat; 
+        background-size: 100% auto;
+    }
+
+    .about_us {
+        margin: 0 0 250px 0;
+        width: 100%;
+        padding: 0 5% 0 5%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    @media (max-width: 300px) {
+        .about_us {
+            margin: 0 0 200px 0;
+        }
+    }
+
+    /* projects */
+
+    .third_c {
+        height: 1680px;
+    }
+
+    .third_inner {
+        flex-direction: column;
+        padding: 30px 0 0 0;
+        flex: 1;
+    }
+
+    .case {
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+
+        height: auto;
+        width: 100%;
+        padding: 15px 0 20px 0;
+        
+    }
+    
+    .dwl {
+        background-image:url(../icons/downFile.png);
+        background-size: 20px;
+        background-position: 97% 5%;
+        background-repeat:no-repeat;
+    }
+
+    .case_text {
+        width: 90%;
+        text-align: center;
+    }
+
+    .image img {
+        height: 100px;
+        width: 100px;
+    }
+    @media (max-width: 340px) {
+        .third_c {
+            height: 1800px;
+        }
+    }
+
+    /* documents */
+
+    /* Contacts */
+
+    .contacts {
+        height: 80vh;
+    }
+
+    .contacts_inner {
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    ._form {
+        padding: 30px 5px 10px 5px;
+        width: 100%;
+        height: 300px;
+    }
+
+    #map {
+        padding: 10px 5px 30px 5px;
+        width: 100%;
+        height: 50%;
+    }
+
+    /* footer */
+
+    .footer_inner {
+        flex-direction: column;
+        flex: auto;
+    }
+
+    .footer_inf {
+        width: 100%;
+        padding: 15px 10px 15px 10px;
+    }
+
+    .right {
+        height: auto;
+    }
+
+    .right img {
+        height: 13px;
+        width: 13px;
+    }
+
+    .left {
+        height: 40%;
+    }
+
+    .copyright {
+        font-size: 11px;
+        padding: 5px;
+    }
+
+    .minimized {
+        pointer-events: none;
+    }
+
+}
+
+@media (min-width: 768px) {
+    @media (max-width: 1000px) {
+
+        .documents>.container {
+            width: 100%;
+        }
+
+        .container {
+            width: 600px;
+        }
+            /* About us */
+
+        .second_c {
+            height: 400px;
+            width: 100%;
+            background-image: url('../img/mobile.png'); 
+            background-position: 50% 80%; 
+            background-repeat: no-repeat; 
+            background-size: 100% auto;
+        }
+
+        .about_us {
+            margin: 0 0 250px 0;
+            width: 100%;
+            padding: 0 5% 0 5%;
+            font-size: 15px;
+            text-align: center;
+        }
+
+            /* projects */
+
+        .third_c {
+            height: 1150px;
+        }
+
+        .third_inner {
+            flex-direction: column;
+            padding: 30px 0 0 0;
+            flex: 1;
+        }
+
+        .case {
+            flex-direction: row;
+            align-items: center;
+            justify-content: start;
+
+            height: auto;
+            width: 100%;
+            padding: 20px 0 20px 0;
+        }
+        
+        .case_text {
+            width: 90%;
+            text-align: start;
+
+        }
+
+        .image img {
+            height: 100px;
+            width: 100px;
+        }
+
+        #map {
+            height: 60%;
+        }
+
+        
+    } 
+}
